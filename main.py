@@ -276,7 +276,7 @@ def main():
     x = np.array(content[0])
     global y
     y = np.array(content[1])
-    if (len(content) <=4):
+    if len(content[0]) >4:
         linear_f, lin_name = linear(content)
         squared_f, squ_name = squared(content)
         triple_f, trip_name = triple(content)
